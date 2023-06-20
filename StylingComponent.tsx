@@ -8,7 +8,7 @@ class StylingComponent extends Component {
       <View>
         {/* Header */}
         <View style={styles.kotakHeader}>
-          <Text style={styles.text}>Styling Component</Text>
+          <Text style={styles.text}>Styling Card</Text>
         </View>
         {/* Body */}
         <View style={{marginHorizontal: 20, marginBottom: 20, marginTop: 15}}>

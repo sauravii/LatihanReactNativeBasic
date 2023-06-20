@@ -2,17 +2,21 @@ import React from 'react';
 import {Image, ScrollView, StyleSheet, Text, View} from 'react-native';
 import SampleComponent from './SampleComponent';
 import StylingComponent from './StylingComponent';
+import FlexboxLayout from './FlexboxLayouting';
+import Cart from './Cart';
 
 // Functional Component
 const App = () => {
   // return <SampleComponent />;
   return (
-    <ScrollView>
-      <View>
+    <View>
+      <ScrollView>
         <SampleComponent />
         <StylingComponent />
-      </View>
-    </ScrollView>
+        <FlexboxLayout />
+        <Cart />
+      </ScrollView>
+    </View>
   );
 };
 
